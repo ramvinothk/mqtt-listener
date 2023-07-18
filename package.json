@@ -1,0 +1,20 @@
+{
+  "name": "mqtt-listener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever start app.js"
+  },
+  "keywords": [],
+  "author": "Ramvinoth",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "forever": "^4.0.3",
+    "mqtt": "^4.3.7"
+  },
+  "type": "module"
+}
